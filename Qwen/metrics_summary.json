@@ -1,0 +1,8 @@
+{
+  "model": "Qwen3-8B",
+  "total_samples": 5000,
+  "accuracy_percent": 77.94,
+  "average_latency_sec_per_request": 5.316622,
+  "throughput_tokens_per_sec": 32.121,
+  "peak_gpu_memory_gb": 31.673
+}

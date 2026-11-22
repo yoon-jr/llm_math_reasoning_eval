@@ -1,0 +1,8 @@
+{
+  "model": "gpt-4o-mini",
+  "total_samples": 5000,
+  "accuracy_percent": 81.48,
+  "average_latency_sec_per_request": 3.174832,
+  "throughput_tokens_per_sec": 17.724,
+  "peak_gpu_memory_gb": 0.0
+}

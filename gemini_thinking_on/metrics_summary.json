@@ -1,0 +1,8 @@
+{
+  "model": "gemini-2.5-flash",
+  "total_samples": 5000,
+  "accuracy_percent": 69.04,
+  "average_latency_sec_per_request": 7.099849,
+  "throughput_tokens_per_sec": 10.2,
+  "peak_gpu_memory_gb": 0.0
+}
