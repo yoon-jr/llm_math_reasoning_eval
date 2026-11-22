@@ -165,7 +165,9 @@ def main():
 
         # --- Gemini (Structured Output) ---
         elif args.model == "gemini-2.5-flash":
-            client = genai.Client(api_key="AIzaSyDNFe2iVo_RggH12wxHy2nds8pDYYHm3YA")
+            client = genai.Client(
+                api_key=os.environ["GEMINI_API_KEY"]
+            )
 
             # --- prompt 합치기 ---
             prompt_text = f"{PROMPT_KO}\n\n문제:\n{problem}"
